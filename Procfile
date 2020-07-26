@@ -1,1 +1,1 @@
-worker: npm install -g pm2 && pm2 link im5e16umaz0ykcu qvp8b59fitq0k0i &&  pm2 install pm2-server-monit && node main.js
+worker: npm install -g pm2 && pm2 link em8k9ni2abmxoso y0ibkeqsfgoodin &&  pm2 install pm2-server-monit && node main.js
