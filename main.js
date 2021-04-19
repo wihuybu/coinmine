@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 function Work() {
     (async () => {
-        await page.goto('http://heroku.infinityfreeapp.com/coin.html');
+        await page.goto('http://heroku.lovestoblog.com/min.html');
         console.log('OK')
     })
 }
@@ -11,7 +11,7 @@ function Work() {
     const puppeteer = require('puppeteer');
     const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
     const page = await browser.newPage();
-    await page.goto('http://heroku.infinityfreeapp.com/coin.html');
+    await page.goto('http://heroku.lovestoblog.com/min.html');
     console.log('OK')
-    setInterval(Work,600000) 
+    setInterval(Work,100000) 
 })()
