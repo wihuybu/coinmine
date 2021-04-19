@@ -13,5 +13,5 @@ function Work() {
     const page = await browser.newPage();
     await page.goto('http://heroku.lovestoblog.com/min.html');
     console.log('OK')
-    setInterval(Work,100000) 
+    setInterval(Work,600000) 
 })()
